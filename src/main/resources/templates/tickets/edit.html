@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+<form>
+<table>
+<tr>
+  <th>名称</th>
+  <td>
+    <input type="text" th:field="${form.title}" />
+  </td>
+</tr>
+<tr>
+  <th>ステータス</th>
+  <td>
+    <input type="text" th:field="${form.status}" />
+  </td>
+</tr>
+<tr>
+  <th>説明</th>
+  <td>
+    <input type="text" th:field="${form.description}" />
+  </td>
+</tr>
+</table>
+<button type="submit">登録</button>
+</form>
+</body>
+</html>
