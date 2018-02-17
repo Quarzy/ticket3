@@ -10,4 +10,9 @@ public class TopController {
 	public String get() {
 		return "top";
 	}
+
+	@GetMapping("/hoehoe")
+	public String hoehoe() {
+		return "top";
+	}
 }
