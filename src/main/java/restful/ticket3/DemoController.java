@@ -1,18 +1,13 @@
-package restful.ticket3.controller;
+package restful.ticket3;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
-public class TopController {
+public class DemoController {
 
-	@GetMapping("/")
+	@GetMapping("/hogehoge")
 	public String get() {
 		return "top";
-	}
-
-	@GetMapping("/hoehoe")
-	public String hoehoe() {
-		return "/top";
 	}
 }
